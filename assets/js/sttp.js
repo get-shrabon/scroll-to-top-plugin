@@ -9,10 +9,10 @@ document.addEventListener("DOMContentLoaded", () => {
 	});
 
 	window.addEventListener("scroll", () => {
-		if (window.scrollY > 400) {
-			scrollToTop.classList.add("show");
+		if (window.scrollY > 200) {
+			scrollToTop.classList.add("sttp_show");
 		} else {
-			scrollToTop.classList.remove("show");
+			scrollToTop.classList.remove("sttp_show");
 		}
 	});
 });

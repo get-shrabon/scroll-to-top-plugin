@@ -1,6 +1,6 @@
 .sc_btn {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     background-color: #007BFF;  /* Primary blue color */
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
@@ -17,11 +17,16 @@
     visibility: hidden;
 }
 
-.sc_btn:hover {
-    background-color: #0056b3;  /* Darker blue on hover */
+.sc_btn img{
+    width: 30px;
+    height: 30px;
 }
 
-.sc_btn.show {
+.sc_btn:hover {
+    background-color: #0056b3; 
+}
+
+.sttp_show {
     opacity: 1;
     visibility: visible;
 }
